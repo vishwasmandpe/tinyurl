@@ -5,8 +5,8 @@ import java.util.Random;
 
 import org.springframework.stereotype.Service;
 
-import com.example.tinyurl.model.UrlMapping;
-import com.example.tinyurl.util.Base62Encoder;
+import com.vm.tinyurl.model.UrlMapping;
+import com.vm.tinyurl.util.Base62Encoder;
 import com.vm.tinyurl.repo.UrlMappingRepository;
 
 import reactor.core.publisher.Mono;
